@@ -375,6 +375,90 @@ header {
 }
 
 
+.projects-header{
+    text-align: center;
+    margin-top: 50px;
+    font-weight: 400;
+    font-size: 60px;
+    line-height: 84px;
+}
+
+.project-cards{
+    margin: 50px auto 34px;
+    justify-content: space-between;
+    width: 1481px;
+    display: flex;
+
+}
+
+
+
+.card-pr{
+    padding: 18px 20px 20px 21px;
+    background-color: #FFAAA5;
+    transition: transform 0.3s;
+
+    &:hover{
+        cursor: pointer;
+        transform: scale(1.05);
+    }
+}
+
+.new-card {
+    padding: 111px 87px 0px 88px;
+    background-color: #FFAAA5;
+    transition: transform 0.3s;
+
+    &:hover{
+        cursor: pointer;
+        transform: scale(1.05);
+    }
+}
+
+.circle-pr{
+    background-color: #FEFFE5;
+
+    &:hover{
+        transform: none;
+    }
+}
+
+.circle-new{
+    background-color: #FEFFE5;
+
+    &:hover{
+        transform: none;
+    }
+
+}
+
+.card-pr-par{
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    padding-bottom: 20px;
+    justify-content: center;
+    text-align: center;
+}
+
+.project-description{
+    margin-top: 20px;
+    align-items: center;
+    width: 284px;
+    height: 146px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+}
+
+.new-project-description{
+    text-align: center;
+    margin-top: 24px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+}
+
     
 
 
