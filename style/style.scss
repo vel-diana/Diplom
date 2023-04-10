@@ -266,6 +266,49 @@ header {
     }
 }
 
+.profile-form{
+    display: flex;
+    flex-direction: column;
+}
+
+.profile-button{
+    &:hover{
+        background-color: #E2F3ED;
+    }
+}
+
+.prof-but-wrap{
+    display: flex;
+    flex-direction: column;
+    margin-right: 306px;
+}
+
+.text-up-profile{
+    width: 1272px;
+}
+
+.projects{
+    margin: 100px auto 60px;
+    padding: 15px 25px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    width: 390px;
+    height: 67px;
+    background-color: #FFAAA5;
+    font-weight: 400;
+    font-size: 29px;
+    line-height: 36px;
+    text-decoration: none;
+    color: black;
+    transition: background-color 0.2s, border 0.2s;
+
+    &:hover{
+        background-color: #E2F3ED;
+        border: 4px solid #A8E6CF;
+    }
+}
+
 
 
 
