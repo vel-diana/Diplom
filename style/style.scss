@@ -309,6 +309,74 @@ header {
     }
 }
 
+.folder-projects{
+    display: inline-block;
+    height: 44px;
+    width: 44px;
+    text-decoration: none;
+    margin-right: 15px;
+
+    & svg :hover {
+        transition: fill 0.3s;
+        fill: #FFAAA5;
+    } 
+
+}
+
+.page-up-projects{
+    justify-content: space-around;
+    display: flex;
+    align-items: center;
+    margin-bottom: 264px;
+    background-image: none;
+}
+
+.cards-project{
+    display: flex;
+}
+
+.card{
+    padding: 111px 87px 0 88px;
+    display: flex;
+    flex-direction: column;
+    width: 325px;
+    height: 398px;
+    background-color: #FEFFE5;
+}
+
+.new-project{
+    margin-right: 80px;
+}
+
+.circle {
+    display: flex;
+    width: 150px;
+    height: 157.11px;
+    border-radius: 50%;
+    background-color: #A8E6CF;
+    align-self: center;
+    justify-content: center;
+    align-items: center;
+    transition: transform 0.3s;
+
+    &:hover{
+        cursor: pointer;
+        transform: scale(1.1);
+    }
+
+}
+
+.card-par{
+    padding-top: 25px;
+    text-align: center;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+}
+
+
+    
+
 
 
 
